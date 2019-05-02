@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /public
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,4 +79,40 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/li-shengming/public
+
+# Custom Config
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  search: /search
+  about: https://0xff000000.com
+  rss: /atom.xml
+
+search:
+  path: search.xml
+  field: post
+
+#RSS feed https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content_limit: 140
+
+
+sitemap:
+    path: sitemap.xml
+
+disqus_shortname: XXX
+
+google_analytics: XXX
+baidu_analytics: FuckUBaidu
+
+#footer
+index_page: https://blog.0xff000000.com
+main_site: https://0xff000000.com
+github: https://github.com/li-shengming
