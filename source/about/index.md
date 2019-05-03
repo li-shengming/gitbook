@@ -5,5 +5,5 @@ type: "about"
 comments: false
 ---
 
-Email: [lishengming107@qq.com](lishengming107@qq.com)
+Email: lishengming107@qq.com
 GitHub: [@li-shengming](https://github.com/li-shengming)
