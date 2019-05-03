@@ -81,6 +81,7 @@ theme: maupassant
 deploy:
   type: git
   repo: https://github.com/li-shengming/public
+  branch: master
 
 search:
   path: search.xml
