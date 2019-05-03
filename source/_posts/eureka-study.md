@@ -1,12 +1,18 @@
 ---
 title: Eureka Study
 layout: post
-categories: SpringCloud
-tags: Eureka SpringCloud SourceCode
-excerpt: Eureka调研
+date: 2016-05-02
+categories: 
+- SpringCloud
+tags: 
+- Eureka
+- SourceCode
+toc: true
 ---
+Eureka是基于REST（Representational State Transfer）服务，主要以AWS云服务为支撑，提供服务发现并实现负载均衡和故障转移。我们称此服务为Eureka服务。Eureka提供了Java客户端组件，Eureka Client，方便与服务端的交互。客户端内置了基于round-robin实现的简单负载均衡。在Netflix，为Eureka提供更为复杂的负载均衡方案进行封装，以实现高可用，它包括基于流量、资源利用率以及请求返回状态的加权负载均衡。
+
+<!-- more-->
 ### Eureka介绍
-Eureka是Spring Cloud Netflix微服务套件中的一部分，可以与Springboot构建的微服务很容易的整合起来。 
 Eureka包含了服务器端和客户端组件。
 - 服务器端，也被称作是服务注册中心，用于提供服务的注册与发现。Eureka支持高可用的配置，当集群中有分片出现故障时，Eureka就会转入自动保护模式，它允许分片故障期间继续提供服务的发现和注册，当故障分片恢复正常时，集群中其他分片会把他们的状态再次同步回来。
 - 客户端组件包含服务消费者与服务生产者。在应用程序运行时，Eureka客户端并把他们缓存到本地并周期性的刷新服务状态。
