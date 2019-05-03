@@ -1,6 +1,6 @@
 ---
 title: Eureka Study
-layout: page
+layout: post
 date: 2019-05-02
 categories: 
 - SpringCloud

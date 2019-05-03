@@ -1,6 +1,6 @@
 ---
 title: Redis Study
-layout: page
+layout: post
 date: 2019-05-03
 categories: 
 - DB
