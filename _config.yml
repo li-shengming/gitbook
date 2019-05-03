@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Shengming Li's GitBook
-subtitle:
-description: 李升明的GitBook
-keywords:
+title: 李升明
+subtitle: 学习  总结  分享  提升
+description: Shengming Li's GitHub Page
+keywords: 学习  总结  分享  提升
 author: Shengming Li
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://github.com/li-shengming
 root: /public
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## theme: landscape
-theme: next
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,37 +82,3 @@ deploy:
   type: git
   repo: https://github.com/li-shengming/public
 
-# Custom Config
-menu:
-  home: /
-  archives: /archives
-  tags: /tags
-  search: /search
-  about: https://0xff000000.com
-  rss: /atom.xml
-
-search:
-  path: search.xml
-  field: post
-
-#RSS feed https://github.com/hexojs/hexo-generator-feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content_limit: 140
-
-
-sitemap:
-    path: sitemap.xml
-
-disqus_shortname: XXX
-
-google_analytics: XXX
-baidu_analytics: FuckUBaidu
-
-#footer
-index_page: https://blog.0xff000000.com
-main_site: https://0xff000000.com
-github: https://github.com/li-shengming
