@@ -3,6 +3,7 @@ title: Eureka Study
 layout: post
 date: 2019-05-02
 categories: 
+- Java 
 - SpringCloud
 tags: 
 - Eureka
