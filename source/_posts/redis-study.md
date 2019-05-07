@@ -1,14 +1,14 @@
 ---
 title: Redis Study
-layout: post
+layout: page
+toc: true
 date: 2019-05-03
 categories: 
-- DB
+- 数据库
 tags: 
 - Redis
 - SourceCode
 - NoSQL
-toc: true
 ---
  Redis是当前比较热门的NOSQL系统之一，它是一个开源的使用ANSI c语言编写的key-value存储系统（区别于MySQL的二维表格的形式存储。）。和Memcache类似，但很大程度补偿了Memcache的不足。和Memcache一样，Redis数据都是缓存在计算机内存中，不同的是，Memcache只能将数据缓存到内存中，无法自动定期写入硬盘，这就表示，一断电或重启，内存清空，数据丢失。所以Memcache的应用场景适用于缓存无需持久化的数据。而Redis不同的是它会周期性的把更新的数据写入磁盘或者把修改操作写入追加的记录文件，实现数据的持久化.
 <!--more-->
