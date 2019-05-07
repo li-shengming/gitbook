@@ -9,7 +9,7 @@ layout: single-column
 - 青岛科技大学, 计算机学院 (2007.09 ~ 2011.07)
 
 ## 个人信息
-- Email: lishengming107@qq.com
+- Email: li-shengming@foxmail.com
 - GitHub: [li-shengming](https://github.com/li-shengming)
 
 ## 工作信息
