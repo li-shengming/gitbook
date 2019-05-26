@@ -87,23 +87,23 @@ public class Singleton3 {
 4) 双重校验锁式
    特点：线程安全，且实现了懒加载策略，同时保证了线程同步时的效率；实现复杂，且 volatile 需要在JDK1.5之后的版本才能确保安全。
 ~~~
-   public class Singleton5 {
+   public class Singleton4 {
    
-       private static volatile Singleton5 singleton5;
+       private static volatile Singleton4 singleton4;
    
-       private Singleton5() {
+       private Singleton4() {
        }
    
-       public static Singleton5 getInstance() {
+       public static Singleton4 getInstance() {
    
-           if (singleton5 == null) {
-               synchronized (Singleton5.class) {
-                   if (singleton5 == null) {
-                       singleton5 = new Singleton5();
+           if (singleton4 == null) {
+               synchronized (Singleton4.class) {
+                   if (singleton4 == null) {
+                       singleton4 = new Singleton4();
                    }
                }
            }
-           return singleton5;
+           return singleton4;
        }
    }
 ~~~
@@ -113,19 +113,19 @@ public class Singleton3 {
 5) 静态代码块式
    特点：线程安全，类主动加载时才初始化实例，实现了懒加载策略，且线程安全。
 ~~~
-   public class Singleton4 {
+   public class Singleton5 {
    
-       private static Singleton4 singleton4;
+       private static Singleton5 singleton5;
    
-       private Singleton4() {
+       private Singleton5() {
        }
    
        static {
-           singleton4 = new Singleton4();
+           singleton5 = new Singleton5();
        }
    
-       public static Singleton4 getInstance() {
-           return singleton4;
+       public static Singleton5 getInstance() {
+           return singleton5;
        }
    
    }
@@ -204,6 +204,7 @@ private Object readResolve() throws ObjectStreamException {
 - 由于只生成一个实例，所以减少了系统的性能开销。
 - 避免对资源的多重占用，例如写文件操作。
 - 单例模式可以在系统设置全局的访问点，优化和共享资源访问
+
 缺点
 - 单例模式对测试不利。
 - 单例模式与单一职责原则有冲突，一个类应该只实现一个逻辑，而不用关心它是否是单例的。
