@@ -6,7 +6,7 @@ layout: single-column
 ---
 ## 个人信息
 - Email: li-shengming@foxmail.com
-- GitHub: [li-shengming](https://github.com/li-shengming)
+- GitHub: [li-shengming's code](https://github.com/li-shengming)
 
 ## 教育背景
 - 北京邮电大学, 研究生，计算机科学与技术 (2011.09 ~ 2014.04)
@@ -15,10 +15,10 @@ layout: single-column
 ## 工作信息
 - 宜信惠民投资管理（北京）有限公司,软件开发工程师,贷款平台部 (2016.04 ~ 至今)
     - 负责项目介绍
-        - 宜信渠道系统
-             1) 提供多渠道获取贷款的业务系统；
+        - 宜信渠道贷款平台
+             1) 提供多渠道获取贷款的业务平台；
              2) 主要由咨询、开户、申请、信审、合同等模块构成；
-             3) 基于SpringCloud的分布式系统,核心技术栈：Eureka、Config、Ribbon、Zuul、Hystrix、Mysql、Redis、MongoDB、Swagger、Dozer、VUE、SIA...;
+             3) 基于SpringCloud的分布式系统,技术栈：Eureka、Config、Ribbon、Zuul、Hystrix、Mysql、Redis、MongoDB、Swagger、Dozer、VUE、SIA...;
         - 房贷综合管理系统
             1) 房产抵押业务使用的业务系统;
             2) 主要由客户申请，信审，房产评估，单位征信，终审，高级终审，合同签约，复核，放款等模块构成；
