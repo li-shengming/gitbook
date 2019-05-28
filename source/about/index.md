@@ -18,7 +18,7 @@ layout: single-column
         - 宜信渠道贷款平台
              1) 提供多渠道获取贷款的业务平台；
              2) 主要由咨询、开户、申请、信审、合同等模块构成；
-             3) 基于SpringCloud的分布式系统,技术栈：Eureka、Config、Ribbon、Zuul、Hystrix、Mysql、Redis、MongoDB、Swagger、Dozer、VUE、SIA...;
+             3) 基于SpringCloud的分布式系统,技术栈：Eureka、Config、Ribbon、Zuul、Hystrix、Mysql、Redis、MongoDB、Mybatis、Swagger、Dozer、VUE、SIA...;
         - 房贷综合管理系统
             1) 房产抵押业务使用的业务系统;
             2) 主要由客户申请，信审，房产评估，单位征信，终审，高级终审，合同签约，复核，放款等模块构成；
