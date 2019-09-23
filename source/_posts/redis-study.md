@@ -207,3 +207,6 @@ Redis会是完美的程序吗？肯定不可能的，世界上就没有完美的
 2) 如果对这个key操作，要求顺序
 假设有一个key1,系统A需要将key1设置为valueA,系统B需要将key1设置为valueB,系统C需要将key1设置为valueC.
 期望按照key1的value值按照 valueA-->valueB-->valueC的顺序变化。这种时候我们在数据写入数据库的时候，需要保存一个时间戳
+
+--------
+参考链接：https://www.toutiao.com/i6688926152364392963/

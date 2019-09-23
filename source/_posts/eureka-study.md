@@ -2,12 +2,15 @@
 title: Eureka Study
 layout: page
 date: 2019-05-02
+top: true
 toc: true
 categories: 
 - 框架
 tags: 
 - Eureka
 - SpringCloud
+- 注册中心
+- 技术难点
 ---
 Eureka是基于REST（Representational State Transfer）服务，主要以AWS云服务为支撑，提供服务发现并实现负载均衡和故障转移。我们称此服务为Eureka服务。Eureka提供了Java客户端组件，Eureka Client，方便与服务端的交互。客户端内置了基于round-robin实现的简单负载均衡。在Netflix，为Eureka提供更为复杂的负载均衡方案进行封装，以实现高可用，它包括基于流量、资源利用率以及请求返回状态的加权负载均衡。
 
