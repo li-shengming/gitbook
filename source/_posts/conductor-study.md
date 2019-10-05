@@ -17,10 +17,10 @@ tags:
 # 系统架构
 ## 1.Conductor架构图
 
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/conductor-system.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/conductor-system.png)
 
 ## 2.任务生命周期
-![2](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/worker-life.png)
+![2](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/worker-life.png)
 
 ## 3.调用流程说明
 - 首先在conductor server上定义task和workflow
@@ -31,7 +31,7 @@ tags:
 - worker中业务逻辑执行完后，根据至执行结果，更新任务状态为COMPLETE或FAIL
 - conductor server监听此任务如果变为COMPLETE或FAIL执行下一个节点或重试等逻辑操作，如此往复。
 # 代码结构
-![2](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/conductor-source-code.png)
+![2](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/conductor-source-code.png)
 
 核心代码结构说明
 
@@ -115,10 +115,10 @@ git clone https://github.com/Netflix/conductor.git
 
 - 使用接口：http://localhost:8080/api/metadata/taskdefs
 - HTTP方法:POST
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/define-task.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/define-task.png)
 
 - 页面查看
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/show-task.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/show-task.png)
 
 - 入参示例
 
@@ -191,10 +191,10 @@ git clone https://github.com/Netflix/conductor.git
 
 - 使用接口：http://localhost:8080/api/metadata/workflow
 - HTTP方法:POST
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/define-workflow.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/define-workflow.png)
 
 - 页面查看
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/show-workflow.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/show-workflow.png)
 
 
 - 入参示例：
@@ -255,7 +255,7 @@ git clone https://github.com/Netflix/conductor.git
 
 - 使用接口：http://localhost:8080/api/workflow/{workname}
 - HTTP方法：POST
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/start-workflow.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/start-workflow.png)
 
 - 入参示例
 
@@ -388,9 +388,9 @@ public class DemoApplication {
 - 调用接口：http://localhost:8080/api/workflow/{workid}
 - HTTP方法： GET
 - 页面查看
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/instance-workflow.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/instance-workflow.png)
 
-![1](https://github.com/li-shengming/channel-conductor-demo/tree/master/md/img/instance-workflow-detail.png)
+![1](https://raw.githubusercontent.com/li-shengming/channel-conductor-demo/master/md/img/instance-workflow-detail.png)
 
 - 输出内容示例
 
